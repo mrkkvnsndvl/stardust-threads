@@ -59,8 +59,8 @@ export default function SignIn() {
             />
           </div>
           <div className='flex items-center gap-2'>
-            <span className='text-center text-regular-normal '>
-              Don't have an account?
+            <span className='text-center text-regular-normal'>
+              Don&apos;t have an account?
             </span>
             <Link
               href='/auth/sign-up'
