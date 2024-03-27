@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  font-family: var(--font-karla);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair-display);
+}
+
+@layer components {
+  .padding-x {
+    @apply px-4 md:px-8 lg:px-16;
+  }
+
+  .padding-y {
+    @apply py-14 lg:py-28;
+  }
+}
