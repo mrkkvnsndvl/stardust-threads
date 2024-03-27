@@ -2,6 +2,13 @@ import { shopData } from '@/_lib/shop-data-lib';
 
 import ProductCard from '../../components/product-card';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Sneaker - Stardust Threads',
+  description: 'E-commerce platform',
+};
+
 export default function Sneaker() {
   return shopData
     .filter((category) => category.title === 'Sneakers')

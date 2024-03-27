@@ -3,6 +3,13 @@ import Link from 'next/link';
 import Button from '@/components/button';
 import { IconBrandGoogleFilled } from '@tabler/icons-react';
 
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Sign Up - Stardust Threads',
+  description: 'E-commerce platform',
+};
+
 export default function Signup() {
   return (
     <section className='flex flex-col items-center gap-6'>

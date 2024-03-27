@@ -15,12 +15,6 @@ import HeroParallax from '@/components/hero-parallax';
 import Navbar from '@/components/navbar';
 import { IconChevronRight, IconStarFilled } from '@tabler/icons-react';
 
-import type { Metadata } from 'next';
-const metadata: Metadata = {
-  title: 'Home - Stardust Threads',
-  description: 'E-commerce platform',
-};
-
 export default function Home() {
   const { showQuestion, handleQuestionClick } = useFaqStore();
 

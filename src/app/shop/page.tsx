@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -6,6 +7,11 @@ import ProductCard from '@/app/shop/components/product-card';
 import Button from '@/components/button';
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
+
+export const metadata: Metadata = {
+  title: 'Shop - Stardust Threads',
+  description: 'E-commerce platform',
+};
 
 export default function Shop() {
   return (
